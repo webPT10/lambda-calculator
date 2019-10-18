@@ -2,7 +2,7 @@ import React from "react";
 import { tsPropertySignature, removePropertiesDeep } from "@babel/types";
 import { convertPatternGroupsToTasks } from "fast-glob/out/managers/tasks";
 
-export const OperatorButton = () => {
+export const OperatorButton = (props) => {
   return (
     <>
       <button className="btnOp">{props.char}</button>
