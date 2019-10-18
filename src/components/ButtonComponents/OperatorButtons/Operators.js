@@ -14,8 +14,8 @@ export const Operators = (props) => {
       {operatorState.map(item => (
         <OperatorButton 
           char={item.char} 
-          value={item.value}
-          key={item.key} 
+          // value={item.value}
+          // key={item.key} 
         />
       ))}
     </div>

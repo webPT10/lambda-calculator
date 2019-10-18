@@ -30,9 +30,11 @@ function App() {
       </section>
 
       <div className="App">
-        <div className="containerSpecials">
-          <Specials />
-        </div>
+        <section className='sectionSpecials'>
+          <div className="containerSpecials">
+            <Specials />
+          </div>
+        </section>
 
         <section className="sectionNumbers">
           <div className="containerNumbers">
