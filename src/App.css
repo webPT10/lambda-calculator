@@ -21,6 +21,11 @@
     font-size: 5.0rem;
   }
 
+  .App{
+    display:flex;
+    justify-content: space-around;
+  }
+
   button {
     background: #1F60B0;
     color: #fff;
@@ -30,7 +35,7 @@
     height: 60px;
     width: 60px;
     text-transform: uppercase;
-    border: 1px solid #410109;
+    border: 1px solid #8f8182;
     border-radius: 50%;
     transition: all 0.2s ease-in; 
   }
@@ -52,16 +57,13 @@
       padding-left: 30px;
   }
 
-
   .containerSpecials{
       border:1px solid yellow;
   }
 
-  .containerNumbers {
-      border:1px solid purple;
+  .containerNumbers{
+      border:2px solid purple;
   }
-
-  .containerOperators {
-      border:1px solid gray;
-  }
+  
+  
 
