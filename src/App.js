@@ -30,24 +30,18 @@ function App() {
       </section>
 
       <div className="App">
-        <section className='sectionSpecials'>
           <div className="containerSpecials">
             <Specials />
           </div>
-        </section>
-
-        <section className="sectionNumbers">
+      
           <div className="containerNumbers">
             <Numbers />
           </div>
-        </section>
-
-        <section className="sectionOperators">
+        
           <div className="containerOperators">
             <Operators />
           </div>
-        </section>
-
+          
       </div>
     </div>
   );
