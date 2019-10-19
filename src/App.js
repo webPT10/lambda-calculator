@@ -31,17 +31,17 @@ function App() {
       </section>
 
       <div className="app">
-          {/* <div className="containerSpecials">
+          <div className="containerSpecials">
             <Specials />
-          </div> */}
+          </div>
       
           <div className="containerNumbers">
             <Numbers />
           </div>
         
-          {/* <div className="containerOperators">
+          <div className="containerOperators">
             <Operators />
-          </div> */}
+          </div>
           
       </div>
     </div>
