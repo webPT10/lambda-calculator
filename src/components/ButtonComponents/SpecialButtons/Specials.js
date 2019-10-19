@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import { SpecialButton } from "./SpecialButton"
 import { specials } from '../../../data';
+import "../Button.css"
 //import any components needed
 //Import your array data to from the provided data file
 
@@ -11,15 +12,17 @@ export const Specials = (props) => {
     const [specialState, setSpecialState] = useState(specials)
     
   return (
-    <div className="containerSpecials">
-      <div>
-        {specialState.map((specials, index) => (
-          <SpecialButton 
-            key={index} 
-            specials={specials}/>
-        ))}
+    <>
+      <div className="containerSpecials">
+        <div>
+          {specialState.map((specials, index) => (
+            <SpecialButton 
+              key={index} 
+              specials={specials}/>
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 {/* STEP 3 - Use .map() to iterate over your array data and return a button

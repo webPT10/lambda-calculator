@@ -30,7 +30,7 @@ function App() {
         <Display /> 
       </section>
 
-      <div className="App">
+      <div className="app">
           {/* <div className="containerSpecials">
             <Specials />
           </div> */}
@@ -39,9 +39,9 @@ function App() {
             <Numbers />
           </div>
         
-          <div className="containerOperators">
+          {/* <div className="containerOperators">
             <Operators />
-          </div>
+          </div> */}
           
       </div>
     </div>
