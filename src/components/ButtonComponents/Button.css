@@ -6,8 +6,6 @@
 
 .containerNumbers{
     border:2px solid purple;
-    height:500px;
-    width: 90%;
 }
 .containerOperators{ 
     border:2px solid gray;
