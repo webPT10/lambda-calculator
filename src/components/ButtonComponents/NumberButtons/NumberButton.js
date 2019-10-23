@@ -1,14 +1,16 @@
 import React from "react";
 
-export const NumberButton = (props) => {
+const NumberButton = (props) => {
   console.log("props", props)
 
   return (
-    <>
-    <div>
-      <button className="btnNum">{props.numbers}</button>
-    </div>
-    </>
+    <button className={props.className}
+    onClick={()=>props.update(String(props.number)) 
+      }
+    >{props.number}</button>
+    // <>
+    //   <button className="btnNum">{props.numbers}</button>
+    // </>
   );
 };
-{/* Display a button element rendering the data being passed down from the parent container on props */}
+export default NumberButton;
