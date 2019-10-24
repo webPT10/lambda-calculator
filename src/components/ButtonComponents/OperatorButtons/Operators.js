@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 //import any components needed
 import OperatorButton from "./OperatorButton";
-import "../Button.css";
+// import "../Button.css";
 
 //Import your array data to from the provided data file
 import { operators } from "../../../data";
@@ -12,7 +12,7 @@ const Operators = (props) => {
   const [operatorState, setOperatorState] = useState(operators);
 
   return (
-    <div className="operatorContainer">
+    <div>
       {operatorState.map((operator, index) => (
         <OperatorButton
           key={index}
