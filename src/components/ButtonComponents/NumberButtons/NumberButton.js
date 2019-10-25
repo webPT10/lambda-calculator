@@ -3,10 +3,8 @@ import React from "react";
 const NumberButton = (props) => {
   return (
     <>
-      <button
-        className="btnNum"
-        onClick={() => props.onClick()}
-        >
+      <button className="btnNum" onClick={() => props.updateState(props.numbers)}>
+        {props.numbers}
       </button>
     </>
   );

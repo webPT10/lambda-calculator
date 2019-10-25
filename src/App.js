@@ -13,9 +13,6 @@ import Specials from "./components/ButtonComponents/SpecialButtons/Specials";
 function App() {
   const [appState, setAppState] = useState('4');
 
-  const setNewAppState = () => {
-    appState += '20';
-  }
   // STEP 5 - After you get the components displaying using the provided data file, write your state hooks here.
   // Once the state hooks are in place write some functions to hold data in state and update that data depending on what it needs to be doing
   // Your functions should accept a parameter of the the item data being displayed to the DOM (ie - should recieve 5 if the user clicks on
@@ -41,7 +38,10 @@ function App() {
         </div>
       
         <div className="containerNumbers">
-          <Numbers />
+          <Numbers 
+            updateState = {setAppState}
+            // pass function to set state as prop
+          />
         </div>
         
         <div className="containerOperators">
